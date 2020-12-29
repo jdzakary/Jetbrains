@@ -3,7 +3,7 @@ import sqlite3
 
 random.seed()
 
-conn = sqlite3.connect('boards_2.s3db')
+conn = sqlite3.connect('Tic_Tac_Toe_Database.s3db')
 cur = conn.cursor()
 
 board_state = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']]
